@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>
+            PHOTO GALLERY
+        </title>
+        <link rel="stylesheet" href="styl.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+        </script>
+        <body>
+            <center>
+                <ul class="menu">
+                    <li class="links"><a href="#home">Home</a></li>
+                    <li class="links"><a href="#grids">Grid view</a></li>
+                    <li class="links"><a href="#slides">Slide View</a></li>
+                </ul>
+            </center>
+            <section id="grids">
+                <div>
+                    <h2 id="grid_header">
+                        Grid Galary
+                    </h2>
+                </div>
+                <br>
+                <div class="row">
+                    <img class="img" src="Red rose.jpg">
+                    <img class="img" src="Orange.png">
+                    <img class="img" src="flowers.gif">
+                    <img class="img" src="purple.jpg">
+                    <br><br>
+                </div>
+            </section>
+            <section id="slides">
+                <div>
+                    <h2 style="text-align: center;">
+                        Sliding Gallary
+                    </h2>
+                </div>
+                <center>
+                    <div id="my_carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <center>
+                                    <img src="Red rose.jpg">
+                                    <div class="carousel-content">
+                                        <h3>
+                                            A Rose
+                                        </h3>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="item">
+                                <center>
+                                    <img src="purple.jpg">
+                                    <div class="carousel-content">
+                                        <h3>
+                                            Purple Flower
+                                        </h3>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="item">
+                                <center>
+                                    <img src="Orange.png">
+                                    <div class="carousel-content">
+                                        <h3>
+                                            Orange Flower
+                                        </h3>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="item">
+                                <center>
+                                    <img src="blue.jpg">
+                                    <div class="carousel-content">
+                                        <h3>
+                                            Blue Flower
+                                        </h3>
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a> 
+                        <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+            </section> 
+        </body>
+    </head>
+</html>
